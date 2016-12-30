@@ -61,11 +61,9 @@
     [gifImageView.layer addAnimation:animation forKey:nil];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
