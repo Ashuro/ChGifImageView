@@ -14,7 +14,6 @@
 		597E0A2A1E10C07900A5783F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A291E10C07900A5783F /* Assets.xcassets */; };
 		597E0A2D1E10C07900A5783F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A2B1E10C07900A5783F /* LaunchScreen.storyboard */; };
 		597E0A381E10C07A00A5783F /* ChGifImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E0A371E10C07A00A5783F /* ChGifImageViewTests.m */; };
-		597E0A431E10C07A00A5783F /* ChGifImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E0A421E10C07A00A5783F /* ChGifImageViewUITests.m */; };
 		597E0A531E10C57700A5783F /* demo2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A521E10C57700A5783F /* demo2.gif */; };
 		597E0A561E10C7FB00A5783F /* ChGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E0A551E10C7FB00A5783F /* ChGifImageView.m */; };
 		597E0DDC1E125B7400A5783F /* diqiu1 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A581E125B6D00A5783F /* diqiu1 (1).png */; };
@@ -929,13 +928,6 @@
 			remoteGlobalIDString = 597E0A191E10C07900A5783F;
 			remoteInfo = ChGifImageView;
 		};
-		597E0A3F1E10C07A00A5783F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 597E0A121E10C07900A5783F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 597E0A191E10C07900A5783F;
-			remoteInfo = ChGifImageView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -952,9 +944,6 @@
 		597E0A331E10C07A00A5783F /* ChGifImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChGifImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		597E0A371E10C07A00A5783F /* ChGifImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChGifImageViewTests.m; sourceTree = "<group>"; };
 		597E0A391E10C07A00A5783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		597E0A3E1E10C07A00A5783F /* ChGifImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChGifImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		597E0A421E10C07A00A5783F /* ChGifImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChGifImageViewUITests.m; sourceTree = "<group>"; };
-		597E0A441E10C07A00A5783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		597E0A521E10C57700A5783F /* demo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo2.gif; sourceTree = "<group>"; };
 		597E0A541E10C7FB00A5783F /* ChGifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChGifImageView.h; sourceTree = "<group>"; };
 		597E0A551E10C7FB00A5783F /* ChGifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChGifImageView.m; sourceTree = "<group>"; };
@@ -1877,13 +1866,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E0A3B1E10C07A00A5783F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1892,7 +1874,6 @@
 			children = (
 				597E0A1C1E10C07900A5783F /* ChGifImageView */,
 				597E0A361E10C07A00A5783F /* ChGifImageViewTests */,
-				597E0A411E10C07A00A5783F /* ChGifImageViewUITests */,
 				597E0A1B1E10C07900A5783F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1902,7 +1883,6 @@
 			children = (
 				597E0A1A1E10C07900A5783F /* ChGifImageView.app */,
 				597E0A331E10C07A00A5783F /* ChGifImageViewTests.xctest */,
-				597E0A3E1E10C07A00A5783F /* ChGifImageViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1941,15 +1921,6 @@
 				597E0A391E10C07A00A5783F /* Info.plist */,
 			);
 			path = ChGifImageViewTests;
-			sourceTree = "<group>";
-		};
-		597E0A411E10C07A00A5783F /* ChGifImageViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				597E0A421E10C07A00A5783F /* ChGifImageViewUITests.m */,
-				597E0A441E10C07A00A5783F /* Info.plist */,
-			);
-			path = ChGifImageViewUITests;
 			sourceTree = "<group>";
 		};
 		597E0A501E10C10D00A5783F /* ChGifImageView */ = {
@@ -2916,24 +2887,6 @@
 			productReference = 597E0A331E10C07A00A5783F /* ChGifImageViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		597E0A3D1E10C07A00A5783F /* ChGifImageViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 597E0A4D1E10C07A00A5783F /* Build configuration list for PBXNativeTarget "ChGifImageViewUITests" */;
-			buildPhases = (
-				597E0A3A1E10C07A00A5783F /* Sources */,
-				597E0A3B1E10C07A00A5783F /* Frameworks */,
-				597E0A3C1E10C07A00A5783F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				597E0A401E10C07A00A5783F /* PBXTargetDependency */,
-			);
-			name = ChGifImageViewUITests;
-			productName = ChGifImageViewUITests;
-			productReference = 597E0A3E1E10C07A00A5783F /* ChGifImageViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2949,11 +2902,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					597E0A321E10C07A00A5783F = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 597E0A191E10C07900A5783F;
-					};
-					597E0A3D1E10C07A00A5783F = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 597E0A191E10C07900A5783F;
@@ -2975,7 +2923,6 @@
 			targets = (
 				597E0A191E10C07900A5783F /* ChGifImageView */,
 				597E0A321E10C07A00A5783F /* ChGifImageViewTests */,
-				597E0A3D1E10C07A00A5783F /* ChGifImageViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -3900,13 +3847,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E0A3C1E10C07A00A5783F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -3930,14 +3870,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E0A3A1E10C07A00A5783F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				597E0A431E10C07A00A5783F /* ChGifImageViewUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3945,11 +3877,6 @@
 			isa = PBXTargetDependency;
 			target = 597E0A191E10C07900A5783F /* ChGifImageView */;
 			targetProxy = 597E0A341E10C07A00A5783F /* PBXContainerItemProxy */;
-		};
-		597E0A401E10C07A00A5783F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 597E0A191E10C07900A5783F /* ChGifImageView */;
-			targetProxy = 597E0A3F1E10C07A00A5783F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4109,28 +4036,6 @@
 			};
 			name = Release;
 		};
-		597E0A4E1E10C07A00A5783F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ChGifImageViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashuro.ChGifImageViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ChGifImageView;
-			};
-			name = Debug;
-		};
-		597E0A4F1E10C07A00A5783F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ChGifImageViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashuro.ChGifImageViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ChGifImageView;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4157,15 +4062,6 @@
 			buildConfigurations = (
 				597E0A4B1E10C07A00A5783F /* Debug */,
 				597E0A4C1E10C07A00A5783F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		597E0A4D1E10C07A00A5783F /* Build configuration list for PBXNativeTarget "ChGifImageViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				597E0A4E1E10C07A00A5783F /* Debug */,
-				597E0A4F1E10C07A00A5783F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
