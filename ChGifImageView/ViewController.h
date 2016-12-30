@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChGifImageView.h"
+
 
 @interface ViewController : UIViewController
+
+
+@property (weak, nonatomic) IBOutlet ChGifImageView *demo4;
 
 
 @end
