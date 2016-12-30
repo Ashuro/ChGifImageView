@@ -1,7 +1,7 @@
 ## ChGifImageView
 
 <p align="center">
-<img src="ChGifImageViewLogo.png" width="200" height="300" />
+<img src="ChGifImageViewLogo.png" width="250" height="300" />
 </p>
 
 支持通过URL、图片播放Gif，也支持直接读取Gif文件。对内存做了一定程度的优化。
