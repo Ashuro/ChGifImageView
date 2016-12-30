@@ -13,7 +13,6 @@
 		597E0A281E10C07900A5783F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A261E10C07900A5783F /* Main.storyboard */; };
 		597E0A2A1E10C07900A5783F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A291E10C07900A5783F /* Assets.xcassets */; };
 		597E0A2D1E10C07900A5783F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A2B1E10C07900A5783F /* LaunchScreen.storyboard */; };
-		597E0A381E10C07A00A5783F /* ChGifImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E0A371E10C07A00A5783F /* ChGifImageViewTests.m */; };
 		597E0A531E10C57700A5783F /* demo2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A521E10C57700A5783F /* demo2.gif */; };
 		597E0A561E10C7FB00A5783F /* ChGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E0A551E10C7FB00A5783F /* ChGifImageView.m */; };
 		597E0DDC1E125B7400A5783F /* diqiu1 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 597E0A581E125B6D00A5783F /* diqiu1 (1).png */; };
@@ -918,10 +917,11 @@
 		597E115F1E125B7500A5783F /* diqiu1 (99).png in Resources */ = {isa = PBXBuildFile; fileRef = 597E0DDB1E125B7300A5783F /* diqiu1 (99).png */; };
 		59D1FE551E16098B0069077F /* demo3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 59D1FE541E16098B0069077F /* demo3.gif */; };
 		FCA976501E165A05000A6677 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FCA9764F1E165A05000A6677 /* README.md */; };
+		FCA976661E165AF0000A6677 /* ChGifImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA976651E165AF0000A6677 /* ChGifImageViewTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		597E0A341E10C07A00A5783F /* PBXContainerItemProxy */ = {
+		FCA976681E165AF0000A6677 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 597E0A121E10C07900A5783F /* Project object */;
 			proxyType = 1;
@@ -941,9 +941,6 @@
 		597E0A291E10C07900A5783F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597E0A2C1E10C07900A5783F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		597E0A2E1E10C07900A5783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		597E0A331E10C07A00A5783F /* ChGifImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChGifImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		597E0A371E10C07A00A5783F /* ChGifImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChGifImageViewTests.m; sourceTree = "<group>"; };
-		597E0A391E10C07A00A5783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		597E0A521E10C57700A5783F /* demo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo2.gif; sourceTree = "<group>"; };
 		597E0A541E10C7FB00A5783F /* ChGifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChGifImageView.h; sourceTree = "<group>"; };
 		597E0A551E10C7FB00A5783F /* ChGifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChGifImageView.m; sourceTree = "<group>"; };
@@ -1849,6 +1846,9 @@
 		597E0DDB1E125B7300A5783F /* diqiu1 (99).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diqiu1 (99).png"; sourceTree = "<group>"; };
 		59D1FE541E16098B0069077F /* demo3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo3.gif; sourceTree = "<group>"; };
 		FCA9764F1E165A05000A6677 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		FCA976631E165AF0000A6677 /* ChGifImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChGifImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA976651E165AF0000A6677 /* ChGifImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChGifImageViewTests.m; sourceTree = "<group>"; };
+		FCA976671E165AF0000A6677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1859,7 +1859,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E0A301E10C07A00A5783F /* Frameworks */ = {
+		FCA976601E165AF0000A6677 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1873,7 +1873,7 @@
 			isa = PBXGroup;
 			children = (
 				597E0A1C1E10C07900A5783F /* ChGifImageView */,
-				597E0A361E10C07A00A5783F /* ChGifImageViewTests */,
+				FCA976641E165AF0000A6677 /* ChGifImageViewTests */,
 				597E0A1B1E10C07900A5783F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1882,7 +1882,7 @@
 			isa = PBXGroup;
 			children = (
 				597E0A1A1E10C07900A5783F /* ChGifImageView.app */,
-				597E0A331E10C07A00A5783F /* ChGifImageViewTests.xctest */,
+				FCA976631E165AF0000A6677 /* ChGifImageViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1912,15 +1912,6 @@
 				597E0A1E1E10C07900A5783F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		597E0A361E10C07A00A5783F /* ChGifImageViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				597E0A371E10C07A00A5783F /* ChGifImageViewTests.m */,
-				597E0A391E10C07A00A5783F /* Info.plist */,
-			);
-			path = ChGifImageViewTests;
 			sourceTree = "<group>";
 		};
 		597E0A501E10C10D00A5783F /* ChGifImageView */ = {
@@ -2849,6 +2840,15 @@
 			path = starPic;
 			sourceTree = "<group>";
 		};
+		FCA976641E165AF0000A6677 /* ChGifImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA976651E165AF0000A6677 /* ChGifImageViewTests.m */,
+				FCA976671E165AF0000A6677 /* Info.plist */,
+			);
+			path = ChGifImageViewTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2869,22 +2869,22 @@
 			productReference = 597E0A1A1E10C07900A5783F /* ChGifImageView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		597E0A321E10C07A00A5783F /* ChGifImageViewTests */ = {
+		FCA976621E165AF0000A6677 /* ChGifImageViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 597E0A4A1E10C07A00A5783F /* Build configuration list for PBXNativeTarget "ChGifImageViewTests" */;
+			buildConfigurationList = FCA9766A1E165AF0000A6677 /* Build configuration list for PBXNativeTarget "ChGifImageViewTests" */;
 			buildPhases = (
-				597E0A2F1E10C07A00A5783F /* Sources */,
-				597E0A301E10C07A00A5783F /* Frameworks */,
-				597E0A311E10C07A00A5783F /* Resources */,
+				FCA9765F1E165AF0000A6677 /* Sources */,
+				FCA976601E165AF0000A6677 /* Frameworks */,
+				FCA976611E165AF0000A6677 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				597E0A351E10C07A00A5783F /* PBXTargetDependency */,
+				FCA976691E165AF0000A6677 /* PBXTargetDependency */,
 			);
 			name = ChGifImageViewTests;
 			productName = ChGifImageViewTests;
-			productReference = 597E0A331E10C07A00A5783F /* ChGifImageViewTests.xctest */;
+			productReference = FCA976631E165AF0000A6677 /* ChGifImageViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -2893,6 +2893,7 @@
 		597E0A121E10C07900A5783F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Ashuro;
 				TargetAttributes = {
@@ -2901,8 +2902,9 @@
 						DevelopmentTeam = 823J5U2S8D;
 						ProvisioningStyle = Automatic;
 					};
-					597E0A321E10C07A00A5783F = {
-						CreatedOnToolsVersion = 8.2.1;
+					FCA976621E165AF0000A6677 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6E2663J543;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 597E0A191E10C07900A5783F;
 					};
@@ -2922,7 +2924,7 @@
 			projectRoot = "";
 			targets = (
 				597E0A191E10C07900A5783F /* ChGifImageView */,
-				597E0A321E10C07A00A5783F /* ChGifImageViewTests */,
+				FCA976621E165AF0000A6677 /* ChGifImageViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -3840,7 +3842,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E0A311E10C07A00A5783F /* Resources */ = {
+		FCA976611E165AF0000A6677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3862,21 +3864,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E0A2F1E10C07A00A5783F /* Sources */ = {
+		FCA9765F1E165AF0000A6677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597E0A381E10C07A00A5783F /* ChGifImageViewTests.m in Sources */,
+				FCA976661E165AF0000A6677 /* ChGifImageViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		597E0A351E10C07A00A5783F /* PBXTargetDependency */ = {
+		FCA976691E165AF0000A6677 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 597E0A191E10C07900A5783F /* ChGifImageView */;
-			targetProxy = 597E0A341E10C07A00A5783F /* PBXContainerItemProxy */;
+			targetProxy = FCA976681E165AF0000A6677 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4012,25 +4014,27 @@
 			};
 			name = Release;
 		};
-		597E0A4B1E10C07A00A5783F /* Debug */ = {
+		FCA9766B1E165AF0000A6677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6E2663J543;
 				INFOPLIST_FILE = ChGifImageViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashuro.ChGifImageViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mszs.ChGifImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChGifImageView.app/ChGifImageView";
 			};
 			name = Debug;
 		};
-		597E0A4C1E10C07A00A5783F /* Release */ = {
+		FCA9766C1E165AF0000A6677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6E2663J543;
 				INFOPLIST_FILE = ChGifImageViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashuro.ChGifImageViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mszs.ChGifImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChGifImageView.app/ChGifImageView";
 			};
@@ -4057,14 +4061,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		597E0A4A1E10C07A00A5783F /* Build configuration list for PBXNativeTarget "ChGifImageViewTests" */ = {
+		FCA9766A1E165AF0000A6677 /* Build configuration list for PBXNativeTarget "ChGifImageViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				597E0A4B1E10C07A00A5783F /* Debug */,
-				597E0A4C1E10C07A00A5783F /* Release */,
+				FCA9766B1E165AF0000A6677 /* Debug */,
+				FCA9766C1E165AF0000A6677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

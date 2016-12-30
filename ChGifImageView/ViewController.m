@@ -52,6 +52,7 @@
 }
 
 #pragma mark - ChGifImageView Delegate
+
 - (void)didTapImageView:(ChGifImageView *)gifImageView {
     //动画
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale"];
