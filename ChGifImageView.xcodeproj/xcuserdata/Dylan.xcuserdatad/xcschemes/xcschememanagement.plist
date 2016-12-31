@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ChGifImageView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>597E0A191E10C07900A5783F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>597E0A321E10C07A00A5783F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>597E0A3D1E10C07A00A5783F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCA976541E165ADB000A6677</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCA976621E165AF0000A6677</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

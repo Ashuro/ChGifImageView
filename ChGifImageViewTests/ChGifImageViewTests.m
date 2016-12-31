@@ -2,7 +2,7 @@
 //  ChGifImageViewTests.m
 //  ChGifImageViewTests
 //
-//  Created by Ashuro on 2016/12/26.
+//  Created by Dylan on 2016/12/30.
 //  Copyright © 2016年 Ashuro. All rights reserved.
 //
 
