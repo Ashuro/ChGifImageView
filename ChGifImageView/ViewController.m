@@ -47,7 +47,7 @@
     demo3.speedValue = 0.001;
     
     //通过xib创建
-    [self.demo4 setImageName:@"demo3" withRefreshType:GifChcheRefresh];
+    [self.demo4 setImageName:@"demo3" withRefreshType:GifCacheRefresh];
     self.demo4.ChGifImageViewDelegate = self;
 }
 

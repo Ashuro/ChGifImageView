@@ -177,7 +177,7 @@
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapImage:)];
     [self addGestureRecognizer:tap];
     // 初始化缓存位置
-    CGLog(@"path:%@",DocumentPath);
+//    CGLog(@"path:%@",DocumentPath);
     NSFileManager *fileManager = [[NSFileManager alloc] init];
     if (![[NSFileManager defaultManager] fileExistsAtPath:ChGifCacheDirPath]) {
         bool suc =  [fileManager createDirectoryAtPath:ChGifCacheDirPath withIntermediateDirectories:YES attributes:nil error:nil];
@@ -262,7 +262,7 @@
     }
 
     // 处理图片缓存文件夹
-    if (self.cacheType == GifChcheRefresh) {
+    if (self.cacheType == GifCacheRefresh) {
         // 刷新图片缓存
         BOOL deleDir = [fileManager removeItemAtPath:ImageCacheDirPath(self.imageName) error:nil];
 #pragma unused(deleDir)

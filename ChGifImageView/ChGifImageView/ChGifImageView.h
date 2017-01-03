@@ -24,7 +24,7 @@ typedef NS_ENUM(NSInteger , GifCacheType) {
     /// 默认的会根据【GIF图片的名字】进行缓存。如果需要更新缓存，请主动调用【refCache】的方法。
     GifCacheDefault = 0,
     /// 每次都会刷新图片，如果是有频繁更新需求的话，可以使用此选项
-    GifChcheRefresh = 1,
+    GifCacheRefresh = 1,
 };
 
 /**********初始化方法**********/
