@@ -3996,6 +3996,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 823J5U2S8D;
 				INFOPLIST_FILE = ChGifImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashuro.ChGifImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4008,6 +4009,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 823J5U2S8D;
 				INFOPLIST_FILE = ChGifImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashuro.ChGifImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4068,6 +4070,7 @@
 				FCA9766C1E165AF0000A6677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
