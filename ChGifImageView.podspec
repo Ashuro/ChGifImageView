@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ChGifImageView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "playGif with URL or Image or Gif"
 
   s.description  = <<-DESC
@@ -15,14 +15,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
-  s.author             = { "Ashuro" => "13591364646@163.com" }
-
-
+  s.author       = { "Ashuro" => "13591364646@163.com" }
 
   s.platform     = :ios
 
+  s.source       = { :git => "https://github.com/Ashuro/ChGifImageView.git", :tag => "0.0.5" }
 
-  s.source       = { :git => "https://github.com/Ashuro/ChGifImageView.git", :tag => "0.0.3" }
+  s.ios.deployment_target = '8.0'
 
   s.source_files  = "ChGifImageView/ChGifImageView/*.{h,m}"
   s.public_header_files = "ChGifImageView/ChGifImageView/*.h"
